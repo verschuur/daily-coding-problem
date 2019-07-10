@@ -3,4 +3,4 @@
     <rule ref="PSR2">
     </rule>
     <exclude-pattern>*/tests/*</exclude-pattern>
-</ruleset
+</ruleset>
