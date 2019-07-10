@@ -2,5 +2,5 @@
 <ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="PHP_CodeSniffer" xsi:noNamespaceSchemaLocation="phpcs.xsd">
     <rule ref="PSR2">
     </rule>
-    <exclude-pattern>*/tests/*</exclude-pattern>
+    <exclude-pattern>*/TestCase.php</exclude-pattern>
 </ruleset>
