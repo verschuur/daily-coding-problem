@@ -21,6 +21,9 @@
     "scripts": {
         "test": [
             "vendor/bin/phpunit --colors=always --configuration ./phpunit.xml"
+        ],
+        "stan": [
+            "vendor/bin/phpstan analyse"
         ]
     }
 }
