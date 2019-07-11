@@ -1,0 +1,13 @@
+{
+    "name": "verschuur/daily-coding-problem",
+    "description": "My Daily Coding Problem solutions",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Govert Verschuur",
+            "email": "govert.verschuur@gmail.com"
+        }
+    ],
+    "require": {
+    }
+}
