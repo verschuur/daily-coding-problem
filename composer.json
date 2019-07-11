@@ -12,5 +12,10 @@
         "phpunit/phpunit": "^8.2",
         "sempro/phpunit-pretty-print": "^1.0",
         "phpstan/phpstan": "^0.11.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "Verschuur\\DailyCodingProblem\\": "src/"
+        }
     }
 }
