@@ -9,6 +9,7 @@
         }
     ],
     "require": {
-        "phpunit/phpunit": "^8.2"
+        "phpunit/phpunit": "^8.2",
+        "sempro/phpunit-pretty-print": "^1.0"
     }
 }
