@@ -17,5 +17,10 @@
         "psr-4": {
             "Verschuur\\DailyCodingProblem\\": "src/"
         }
+    },
+    "scripts": {
+        "test": [
+            "vendor/bin/phpunit --colors=always --configuration ./phpunit.xml"
+        ]
     }
 }
