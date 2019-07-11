@@ -10,7 +10,7 @@ class TestCase extends PHPUnit\Framework\TestCase
         /**
          * Original assertion from problem description.
          * 6 = 0110
-         * 9 =1001
+         * 9 = 1001
          */
         $this->assertSame(9, solution(6));
 
@@ -25,6 +25,5 @@ class TestCase extends PHPUnit\Framework\TestCase
          * 12 = 1100
          */
         $this->assertSame(14, solution(13));
-
     }
 }
