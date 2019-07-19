@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Verschuur\DailyCodingProblem\PROBLEM_ID;
+namespace Verschuur\DailyCodingProblem\P_PROBLEM_ID_HERE;
 
 class SolutionTest extends \PHPUnit\Framework\TestCase
 {
