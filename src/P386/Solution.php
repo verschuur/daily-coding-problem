@@ -5,11 +5,16 @@ namespace Verschuur\DailyCodingProblem\P386;
 
 class Solution
 {
-    const SORT_ASC = 0;
-    const SORT_DESC = 0;
-
-    public function solve(string $input, int $sort = self::SORT_ASC): string
+    public function solve(string $input): string
     {
-        return '';
+        $chars = count_chars($input, 1);
+        arsort($chars, SORT_NUMERIC);
+        
+        $res = '';
+        foreach ($chars as $char => $count) {
+            $res .= str_repeat(chr($char), $count);
+        }
+
+        return $res;
     }
 }
